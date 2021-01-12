@@ -96,9 +96,11 @@ footer{
           display: flex;
           align-items: flex-start;
           justify-content: space-between;
-          flex-wrap: wrap;
           li{
-            padding: 0 10px 5px;
+            padding: 0 5px 5px;
+            a{
+              font-size: 12px;
+            }
           }
         }
       }
@@ -116,7 +118,12 @@ footer{
       margin-bottom: 45px;
       .logotip{
         margin: 0;
+        max-width: 210px;
         margin-right: 25px;
+        h6 {
+          font-size: 14px;
+          margin: 5px 0 15px;
+        }
       }
       .top-menu{
         .one-part{
@@ -149,7 +156,11 @@ footer{
   footer{
     .content-footer{
       .logotip{
+        max-width: 253px;
         margin-right: 0;
+        h6 {
+          font-size: var(--fz18);
+        }
       }
       .top-menu{
         .div-soc-search{
@@ -171,6 +182,9 @@ footer{
         ul{
           li{
             padding: 0 0 5px;
+            a {
+              font-size: 15px;
+            }
           }
         }
       }
@@ -185,6 +199,15 @@ footer{
       .top-menu{
         .location-part, .email-phone-head{
           margin-right: 35px;
+        }
+      }
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 16px;
+            }
+          }
         }
       }
     }
