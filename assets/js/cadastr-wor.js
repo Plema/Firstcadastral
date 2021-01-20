@@ -24,11 +24,11 @@ $(document).ready(function(){
     $('.all-c').find('.'+attrPart).addClass('active-part')
   });
 
-  $( document ).on('click','.click-span', function() {
-    $('.part').removeClass('active-part')
-    $('.one-page').addClass('active-part')
-    console.log('win')
-  });
+  // $( document ).on('click','.click-span', function() {
+  //   $('.part').removeClass('active-part')
+  //   $('.one-page').addClass('active-part')
+  //   console.log('win')
+  // });
 
 
    function windowSize(){
